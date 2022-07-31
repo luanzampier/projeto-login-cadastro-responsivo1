@@ -7,8 +7,6 @@ body{margin: 0%;}
     height: 100vh;
     align-items: center;
     justify-content: center;
-    
-    
 }
 .box-page-login{
     display: flex;
@@ -26,7 +24,6 @@ body{margin: 0%;}
 .box-page-login h1{
     margin-bottom: 20px;
     font-family: fantasy;
-    
     font-size: 45px;
     font-weight: bold;
 }
@@ -36,9 +33,11 @@ body{margin: 0%;}
 .box-page-login input{
     width: 100%;
     height: 40px;
-    border-radius: 10px;
+    outline: none;
     border: none;
-    background-color:rgb(189, 172, 23) ;
+    background-color:rgb(254, 250, 161) ;
+    border-bottom: 1px solid black;
+    cursor: default;
 }
 .box-page-login button{
     border-radius: 50px;
@@ -49,13 +48,14 @@ body{margin: 0%;}
     width: 150px;
     height: 45px;
     font-size: 15px;
+    transition: color, ease-in-out 0.3s;
 }
 .box-page-login button:hover{
     background-color:rgb(189, 172, 23) ;
     color: black;
     border: none;
-    text-decoration: underline;
 }
+
 
 /* Smartphones (600px para baixo) */
 @media only screen and (max-width: 600px) {
